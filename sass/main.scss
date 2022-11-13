@@ -1,0 +1,260 @@
+@import "./utils/variables";
+@import "https://fonts.googleapis.com/css?family=Roboto";
+@import "https://fonts.googleapis.com/css?family=Roboto:italic";
+
+
+*{
+    font-family: 'Roboto';
+    text-align: center;
+}
+
+body{
+    max-width: 767px;
+    margin: auto;
+
+}
+header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100px;
+    /*box-shadow: 0px 5px 5px $shadow;*/
+    
+}
+.logo{
+
+    width: 50%;
+    height: 50%;
+    object-fit: scale-down;
+
+
+}
+
+h1{
+
+    color: $location_color;
+    margin-left: 1%;
+}
+
+.location{
+    background-color: $gris;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap:1%;
+    box-shadow : 
+         inset 0px 11px 12px -10px black,
+         inset 0px -1px 12px -10px black; 
+
+}
+
+.Reservez{
+    min-height: 500px;
+    width: 100%;
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: $reserver_color;
+   
+ 
+}
+
+h2{
+    font-size: 38px;
+    font-weight: bolder;
+
+}
+h3{
+    font-size: 28px;
+    font-weight: 200;
+    color: $location_color;
+}
+
+.fa-solid{
+    color: $location_color;
+    font-size: 24px;
+}
+.explore_restaurant{
+    margin-top: 10px;
+    background: rgb(237,116,217);
+    background: linear-gradient(180deg, rgba(237,116,217,1) 0%, rgba(168,94,217,1) 100%); 
+    width: fit-content;
+    padding: 20px;
+    
+    
+    border-radius: 35px;
+    box-shadow: 0px 6px 38px 2px $shadow;
+
+    >div{
+        font-weight: 600px;
+        color: white;
+        font-size: 24px;
+    }
+
+}
+
+
+a{
+    color: black;
+    text-decoration: none;
+    :visited{
+        text-decoration: none;
+        color:inherit;
+    }
+    :active{
+        color: black;
+        color:inherit;
+    }
+    :hover{
+        color: black;
+        color:inherit;
+    }
+}
+
+.Fonctionnement{
+    min-height: 500px;
+    width: 100%;
+    >h2{
+        margin-top: 60px;
+        margin-left: 5%;
+        text-align: left;
+    }
+    >div{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        gap: 30px;
+    }
+
+}
+.Fonctionnement_Bloc{
+    width: 80%;
+    min-height: 100px;
+    border-radius: 20px;
+    box-shadow: 0px 3px 16px -3px $shadow;
+    display: flex;
+    
+    align-items: center;
+    gap: 8%;
+    >p{
+        font-size: 20px;
+        font-weight: 700;
+    }
+
+}
+
+.Fonctionnement_Numbers{
+    background-color: $numberpink;
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    margin-left: -18px;
+    font-size: 20px;
+}
+
+main{
+    background-color: $reserver_color;
+    width: 100%;
+    padding-bottom: 40px;
+    min-height: 500px;
+    >h2{
+        padding-top: 50px;
+        text-align: left;
+        margin-left: 5%;
+
+    }
+}
+
+.RestaurantList{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+    gap: 30px;
+}
+
+.RestaurantList_Block{
+    width: 90%;
+    height: 350px;
+    background-color: white;
+    border-radius: 20px;
+    box-shadow: 0px 3px 16px -3px $shadow;
+    >img{
+        width: 100%;
+        object-fit: cover;
+        height: 70%;
+        border-radius: 20px 20px 0px 0px;
+    }
+    >div{
+        display: flex;
+        width: auto;
+        >div{
+            width: 80%;
+            >h3{
+                margin-top: auto;
+                padding-top: 5%;
+                margin-left: 3%;
+                margin-bottom: auto;
+                text-align: left;
+            }
+            >p{
+                text-align: left;
+                margin-bottom: auto;
+                margin-left: 3%;
+                margin-top: auto;
+            }
+        }
+        >i{
+           
+            margin: auto;
+            align-self: center;
+            font-size: 40px;
+            
+        }
+    }
+}
+
+footer{
+    
+    background-color: #343434;
+    min-height: 400px;
+    display: flex;
+    flex-direction: column;
+    padding-top: 40px;
+    justify-content: flex-start;
+    
+    >img{
+        width: 40%;
+        height: 40px;
+        margin-left: 3%;
+        filter: invert(100%);
+        object-fit: scale-down;
+        
+    }
+    a{
+        color: white;
+        text-align: left;
+        margin-left: 3%;
+        font-size: 16px;
+        .fa-solid{
+            color: white;
+            margin-right: 5px;
+        }
+    }
+    >div{
+        margin-top: 60px;
+        display: flex;
+        flex-direction: column;
+        gap: 25px;
+        margin-bottom: 30px;
+    }
+}
