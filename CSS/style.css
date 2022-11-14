@@ -2,7 +2,7 @@
 @import "https://fonts.googleapis.com/css?family=Roboto:italic";
 * {
   font-family: "Roboto";
-  text-align: center;
+  text-align: left;
 }
 
 body {
@@ -47,6 +47,12 @@ h1 {
   align-items: center;
   justify-content: center;
   background-color: #f6f6f6;
+}
+.Reservez > h2 {
+  text-align: center;
+}
+.Reservez > h3 {
+  text-align: center;
 }
 
 h2 {
@@ -226,6 +232,9 @@ footer a .fa-solid {
   color: white;
   margin-right: 5px;
 }
+footer a:visited {
+  color: white;
+}
 footer > div {
   margin-top: 60px;
   display: flex;
@@ -274,6 +283,8 @@ footer > div {
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  gap: 30px;
+  margin-bottom: 30px;
 }
 .Resto_Menu .Resto_Menu_Bloc .Resto_Menu_Bloc_Title {
   height: 100%;
@@ -290,6 +301,24 @@ footer > div {
   width: 50%;
   left: 25%;
   border-bottom: 5px solid red;
+}
+.Resto_Menu .Resto_Menu_Bloc .Resto_Menu_Bloc_Element {
+  height: 120px;
+  border-radius: 30px;
+  box-shadow: 0px 3px 16px -3px rgba(0, 0, 0, 0.35);
+  background-color: white;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.Resto_Menu .Resto_Menu_Bloc .Resto_Menu_Bloc_Element > h3 {
+  margin: auto;
+}
+.Resto_Menu .Resto_Menu_Bloc .Resto_Menu_Bloc_Element > div {
+  display: flex;
+}
+.Resto_Menu .Resto_Menu_Bloc .Resto_Menu_Bloc_Element > div > div {
+  margin: 30px;
 }
 
 /*# sourceMappingURL=style.css.map */

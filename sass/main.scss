@@ -5,7 +5,7 @@
 
 *{
     font-family: 'Roboto';
-    text-align: center;
+    text-align: left;
 }
 
 body{
@@ -58,6 +58,16 @@ h1{
     align-items: center;
     justify-content: center;
     background-color: $reserver_color;
+    
+    >h2 {
+        text-align: center;
+
+    }
+    >h3 {
+        text-align: center;
+
+    }
+   
    
  
 }
@@ -253,6 +263,9 @@ footer{
             color: white;
             margin-right: 5px;
         }
+        &:visited{
+            color: white;
+        }
     }
     >div{
         margin-top: 60px;
@@ -309,6 +322,8 @@ footer{
         flex-direction: column;
         align-items: center;
         justify-content: center;
+        gap: 30px;
+        margin-bottom: 30px;
         .Resto_Menu_Bloc_Title{
             height: 100%;
             color:black;
@@ -325,6 +340,28 @@ footer{
                 width: 50%;
                 left: 25%;
                 border-bottom: 5px solid red;
+            }
+            
+
+        }
+
+        .Resto_Menu_Bloc_Element{
+            height: 120px;
+            border-radius: 30px;
+            box-shadow: 0px 3px 16px -3px $shadow;
+
+            background-color: white;
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            >h3{
+                margin: auto;
+            }
+            >div{
+                display: flex;
+                >div{
+                    margin: 30px;
+                }
             }
 
         }
