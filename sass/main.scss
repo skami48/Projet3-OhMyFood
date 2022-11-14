@@ -88,6 +88,11 @@ h3{
     border-radius: 35px;
     box-shadow: 0px 6px 38px 2px $shadow;
 
+    :hover{
+        color: white;
+    }
+
+
     >div{
         font-weight: 600px;
         color: white;
@@ -160,7 +165,7 @@ a{
     font-size: 20px;
 }
 
-main{
+.IndexMain{
     background-color: $reserver_color;
     width: 100%;
     padding-bottom: 40px;
@@ -256,5 +261,15 @@ footer{
         flex-direction: column;
         gap: 25px;
         margin-bottom: 30px;
+    }
+}
+
+
+.Resto_Image{
+    max-height: 300px;
+    width: 100%;
+    >img{
+        object-fit: cover;
+        width: 100%;
     }
 }
