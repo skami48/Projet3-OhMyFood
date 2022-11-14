@@ -266,10 +266,42 @@ footer{
 
 
 .Resto_Image{
-    max-height: 300px;
+    min-height: 300px;
     width: 100%;
+
+    object-fit: cover;
+    width: 100%;
+    position: relative;
+    z-index: 1;
+
     >img{
-        object-fit: cover;
-        width: 100%;
+
+    }
+}
+
+.RestoMain{
+    margin-top: -90px;
+    background-color: $reserver_color;
+    border-radius: 60px 60px 0px 0px;
+    min-height: 300px;
+    position: relative;
+    z-index: 3;
+    >h1{
+        padding-top: 30px;
+    }
+}
+
+.Resto_Menu{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    .Resto_Menu_Bloc{
+        width: 90%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
     }
 }
