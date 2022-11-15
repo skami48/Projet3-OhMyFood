@@ -1,6 +1,7 @@
 @import "./utils/variables";
 @import "https://fonts.googleapis.com/css?family=Roboto";
 @import "https://fonts.googleapis.com/css?family=Roboto:italic";
+@import "https://fonts.googleapis.com/css?family=Shrikhand";
 
 
 *{
@@ -306,6 +307,14 @@ footer{
     gap: 30px;
     >.fa-regular{
         font-size: 36px;
+        margin-right: 5%;
+        margin-left: auto;
+    }
+    >h1{
+        font-family: Shrikhand;
+        font-size: 36px;
+        margin-right: auto;
+        margin-left: 5%;
     }
 }
 }
@@ -329,6 +338,7 @@ footer{
             color:black;
             font-style: normal;
            position: relative;
+           align-self: flex-start;
      
             
             &::after{
@@ -339,7 +349,7 @@ footer{
                 top: 0;
                 width: 50%;
                 left: 25%;
-                border-bottom: 5px solid red;
+                border-bottom: 5px solid $tertiaire;
             }
             
 
@@ -355,13 +365,14 @@ footer{
             display: flex;
             flex-direction: column;
             >h3{
-                margin: auto;
+                margin-top: 1%;
+                margin-left: 5%;
+                
+                
             }
             >div{
                 display: flex;
-                >div{
-                    margin: 30px;
-                }
+
             }
 
         }
@@ -370,3 +381,11 @@ footer{
     }
 }
 
+.Resto_Menu_Bloc_Element_Description{
+    margin-left: 5%;
+    margin-right: auto;
+}
+.Resto_Menu_Bloc_Element_price{
+    margin-right: 5%;
+    margin-left: auto;
+}

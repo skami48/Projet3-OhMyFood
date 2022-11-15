@@ -1,5 +1,6 @@
 @import "https://fonts.googleapis.com/css?family=Roboto";
 @import "https://fonts.googleapis.com/css?family=Roboto:italic";
+@import "https://fonts.googleapis.com/css?family=Shrikhand";
 * {
   font-family: "Roboto";
   text-align: left;
@@ -135,7 +136,7 @@ a:hover {
 }
 
 .Fonctionnement_Numbers {
-  background-color: rgb(168, 94, 217);
+  background-color: #9356DC;
   width: 35px;
   height: 35px;
   border-radius: 50%;
@@ -269,6 +270,14 @@ footer > div {
 }
 .RestoMain .Resto_Title > .fa-regular {
   font-size: 36px;
+  margin-right: 5%;
+  margin-left: auto;
+}
+.RestoMain .Resto_Title > h1 {
+  font-family: Shrikhand;
+  font-size: 36px;
+  margin-right: auto;
+  margin-left: 5%;
 }
 
 .Resto_Menu {
@@ -291,6 +300,7 @@ footer > div {
   color: black;
   font-style: normal;
   position: relative;
+  align-self: flex-start;
 }
 .Resto_Menu .Resto_Menu_Bloc .Resto_Menu_Bloc_Title::after {
   content: "";
@@ -300,7 +310,7 @@ footer > div {
   top: 0;
   width: 50%;
   left: 25%;
-  border-bottom: 5px solid red;
+  border-bottom: 5px solid #99E2D0;
 }
 .Resto_Menu .Resto_Menu_Bloc .Resto_Menu_Bloc_Element {
   height: 120px;
@@ -312,13 +322,21 @@ footer > div {
   flex-direction: column;
 }
 .Resto_Menu .Resto_Menu_Bloc .Resto_Menu_Bloc_Element > h3 {
-  margin: auto;
+  margin-top: 1%;
+  margin-left: 5%;
 }
 .Resto_Menu .Resto_Menu_Bloc .Resto_Menu_Bloc_Element > div {
   display: flex;
 }
-.Resto_Menu .Resto_Menu_Bloc .Resto_Menu_Bloc_Element > div > div {
-  margin: 30px;
+
+.Resto_Menu_Bloc_Element_Description {
+  margin-left: 5%;
+  margin-right: auto;
+}
+
+.Resto_Menu_Bloc_Element_price {
+  margin-right: 5%;
+  margin-left: auto;
 }
 
 /*# sourceMappingURL=style.css.map */
