@@ -1,6 +1,14 @@
 @import "https://fonts.googleapis.com/css?family=Roboto";
 @import "https://fonts.googleapis.com/css?family=Roboto:italic";
 @import "https://fonts.googleapis.com/css?family=Shrikhand";
+@keyframes selectIN {
+  from {
+    margin-right: -20%;
+  }
+  to {
+    margin-right: 0%;
+  }
+}
 * {
   font-family: "Roboto";
   text-align: left;
@@ -313,25 +321,66 @@ footer > div {
   border-bottom: 5px solid #99E2D0;
 }
 .Resto_Menu .Resto_Menu_Bloc .Resto_Menu_Bloc_Element {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   height: 120px;
   border-radius: 30px;
   box-shadow: 0px 3px 16px -3px rgba(0, 0, 0, 0.35);
   background-color: white;
   width: 100%;
+  overflow: hidden;
+}
+.Resto_Menu .Resto_Menu_Bloc .Resto_Menu_Bloc_Element:hover .Resto_Menu_Bloc_Element_Validation {
+  transition: margin-right 500ms;
+  margin-right: 0%;
+  animation-duration: 500ms;
+}
+.Resto_Menu .Resto_Menu_Bloc .Resto_Menu_Bloc_Element:hover .Resto_Menu_Bloc_Element_Validation i {
+  transition-duration: 500ms;
+  transform: rotate(360deg);
+}
+.Resto_Menu .Resto_Menu_Bloc .Resto_Menu_Bloc_Element .Resto_Menu_Bloc_Element_content {
+  width: 100%;
   display: flex;
   flex-direction: column;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
 }
-.Resto_Menu .Resto_Menu_Bloc .Resto_Menu_Bloc_Element > h3 {
+.Resto_Menu .Resto_Menu_Bloc .Resto_Menu_Bloc_Element .Resto_Menu_Bloc_Element_content > h3 {
   margin-top: 1%;
   margin-left: 5%;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  font-size: 21px;
+  font-weight: 900;
 }
-.Resto_Menu .Resto_Menu_Bloc .Resto_Menu_Bloc_Element > div {
+.Resto_Menu .Resto_Menu_Bloc .Resto_Menu_Bloc_Element .Resto_Menu_Bloc_Element_content > div {
   display: flex;
+}
+.Resto_Menu .Resto_Menu_Bloc .Resto_Menu_Bloc_Element .Resto_Menu_Bloc_Element_Validation {
+  background-color: #99E2D0;
+  width: 20%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition-property: margin-right;
+  transition-duration: 500ms;
+  margin-right: -20%;
+}
+.Resto_Menu .Resto_Menu_Bloc .Resto_Menu_Bloc_Element .Resto_Menu_Bloc_Element_Validation i {
+  transform: rotate(0);
 }
 
 .Resto_Menu_Bloc_Element_Description {
   margin-left: 5%;
   margin-right: auto;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
 }
 
 .Resto_Menu_Bloc_Element_price {
