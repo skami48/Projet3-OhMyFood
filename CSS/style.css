@@ -27,6 +27,16 @@
     visibility: hidden;
   }
 }
+@keyframes blockAppear {
+  0% {
+    opacity: 0;
+    transform: translateY(50px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0px);
+  }
+}
 * {
   font-family: "Roboto";
   text-align: left;
@@ -347,6 +357,10 @@ footer > div {
   background-color: white;
   width: 100%;
   overflow: hidden;
+  animation: blockAppear 1000ms 2000ms;
+  opacity: 0;
+  animation-fill-mode: forwards;
+  animation-timing-function: cubic-bezier(0.28, 0.57, 0.43, 0.91);
 }
 .Resto_Menu .Resto_Menu_Bloc .Resto_Menu_Bloc_Element:hover .Resto_Menu_Bloc_Element_Validation {
   transition: margin-right 500ms;
