@@ -344,12 +344,12 @@ footer{
             
             &::after{
                 content: '';
-                margin-left: -32px;
+                
                 display: block;
                 position: relative;
                 top: 0;
                 width: 50%;
-                left: 25%;
+                left: 0%;
                 border-bottom: 5px solid $tertiaire;
             }
             
@@ -390,8 +390,8 @@ footer{
             text-overflow: ellipsis;
             overflow: hidden;
             >h3{
-                margin-top: 1%;
-                margin-left: 5%;
+                margin-top: 5px;
+                margin-left: 20px;
                 white-space: nowrap;
                 text-overflow: ellipsis;
                 overflow: hidden;
@@ -433,7 +433,7 @@ footer{
 }
 
 .Resto_Menu_Bloc_Element_Description{
-    margin-left: 5%;
+    margin-left: 20px;
     margin-right: auto;
     white-space: nowrap;
     text-overflow: ellipsis;
@@ -443,4 +443,39 @@ footer{
     margin-right: 5%;
     margin-left: auto;
     
+}
+
+.Laoder{
+    position: fixed;
+    
+    width: 100%;
+    height: 100%;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    z-index: 9999;
+    background-color: $gris ;
+    opacity: 0.3;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    animation: PageLoaderHide 2000ms;
+    animation-fill-mode: forwards;
+    animation-timing-function:cubic-bezier(.74,.44,.94,.45);
+    
+    
+
+    i{
+        position :sticky;
+        font-size: 200px;
+        animation-name: PageLoader;
+        animation-duration: 1000ms;
+        animation-iteration-count: infinite;
+        animation-timing-function: linear;
+        color: $tertiaire;
+
+    }
 }
