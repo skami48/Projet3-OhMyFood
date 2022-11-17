@@ -291,6 +291,9 @@ footer a .fa-solid {
 footer a:visited {
   color: white;
 }
+footer a:hover {
+  color: white;
+}
 footer > div {
   margin-top: 60px;
   display: flex;
