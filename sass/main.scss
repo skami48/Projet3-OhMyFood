@@ -397,10 +397,7 @@ footer{
             background-color: white;
             width: 100%;
             overflow: hidden;
-            /*animation: blockAppear 1000ms 2000ms;
-            opacity: 0;
-            animation-fill-mode: forwards;
-            animation-timing-function: cubic-bezier(.28,.57,.43,.91);*/
+
     
 
             &:hover {
@@ -609,4 +606,20 @@ footer{
     .Resto_Image{
         max-height: 600px;
     }
+    .Resto_Menu{
+        flex-direction: row;
+        gap: 5%;
+        flex-wrap: wrap;
+        .Resto_Menu_Bloc{
+            width: 40%;
+        }
+        .explore_restaurant{
+            margin-bottom: 30px;
+        }
+
+    }
+    .flexAlign{
+        flex-basis: 100%;
+    }
+
 }
