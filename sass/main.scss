@@ -553,3 +553,60 @@ footer{
 
     }
 }
+
+@media (min-width:767px){
+    body{
+        max-width: 992px;
+        margin: auto;
+    
+    }
+    .Fonctionnement >div{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: row;
+        flex-wrap: wrap;
+        gap: 30px;
+        margin-left: 5%;
+        margin-right: 5%;
+        .Fonctionnement_Bloc{
+            width: 30%;
+
+        }
+    }
+    .Fonctionnement_Numbers{
+        height: 30px;
+    }
+    .Fonctionnement{
+        min-height: auto;
+    }
+    .RestaurantList{
+        flex-direction: row;
+        flex-wrap:wrap;
+    }
+    .RestaurantList_Block{
+        width: 45%;
+    }
+    .LikeButton{
+        margin-right: 7%;
+    }
+    
+}
+
+@media (min-width:992px) {
+    body{
+        max-width: 100%;
+    }
+    header > a {
+        margin-right: 1%;
+    }
+    .logonext{
+        margin-right: auto;
+        margin-left: 1%;
+        width: 20%;
+        
+    }
+    .Resto_Image{
+        max-height: 600px;
+    }
+}
