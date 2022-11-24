@@ -178,6 +178,12 @@ a{
         font-size: 20px;
         font-weight: 700;
     }
+    &:hover{
+        background-color: $primaire-clair ;
+        >.fa-solid{
+            color: $primaire;
+        }
+    }
 
 }
 
@@ -222,6 +228,7 @@ a{
     background-color: white;
     border-radius: 20px;
     box-shadow: 0px 3px 16px -3px $shadow;
+    position: relative;
     >img{
         width: 100%;
         object-fit: cover;
@@ -255,6 +262,17 @@ a{
             
         }
     }
+}
+
+.NouveauIcon{
+    position: absolute;
+    padding: 10px 15px ;
+    background-color: $nouveauBouttonColor;
+    right: 26px;
+    top: 17px;
+    border-radius: 3px;
+    color: $nouveauBouttonColortext ;
+    
 }
 
 footer{
@@ -568,6 +586,7 @@ footer{
         margin-right: 5%;
         .Fonctionnement_Bloc{
             width: 30%;
+            
 
         }
     }

@@ -20,7 +20,7 @@
 @keyframes PageLoaderHide {
   0% {
     visibility: visible;
-    opacity: 0.5;
+    opacity: 0.8;
   }
   100% {
     opacity: 0;
@@ -189,6 +189,12 @@ a:hover {
   font-size: 20px;
   font-weight: 700;
 }
+.Fonctionnement_Bloc:hover {
+  background-color: #f5edff;
+}
+.Fonctionnement_Bloc:hover > .fa-solid {
+  color: #9356DC;
+}
 
 .Fonctionnement_Numbers {
   background-color: #9356DC;
@@ -230,6 +236,7 @@ a:hover {
   background-color: white;
   border-radius: 20px;
   box-shadow: 0px 3px 16px -3px rgba(0, 0, 0, 0.35);
+  position: relative;
 }
 .RestaurantList_Block > img {
   width: 100%;
@@ -261,6 +268,16 @@ a:hover {
   margin: auto;
   align-self: center;
   font-size: 40px;
+}
+
+.NouveauIcon {
+  position: absolute;
+  padding: 10px 15px;
+  background-color: #99e2d0;
+  right: 26px;
+  top: 17px;
+  border-radius: 3px;
+  color: #088b6b;
 }
 
 footer {
