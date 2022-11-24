@@ -423,6 +423,12 @@ footer > div {
   animation-fill-mode: forwards;
   animation-timing-function: cubic-bezier(0.28, 0.57, 0.43, 0.91);
 }
+.Resto_Menu .Resto_Menu_Bloc .AnimContent10 {
+  animation: blockAppear 1000ms 4000ms;
+  opacity: 0;
+  animation-fill-mode: forwards;
+  animation-timing-function: cubic-bezier(0.28, 0.57, 0.43, 0.91);
+}
 .Resto_Menu .Resto_Menu_Bloc .Resto_Menu_Bloc_Element {
   display: flex;
   justify-content: center;
@@ -571,6 +577,7 @@ footer > div {
   }
   .Fonctionnement_Numbers {
     height: 30px;
+    width: 30px;
   }
   .Fonctionnement {
     min-height: auto;
@@ -608,6 +615,7 @@ footer > div {
   }
   .Resto_Menu .Resto_Menu_Bloc {
     width: 40%;
+    align-self: flex-start;
   }
   .Resto_Menu .explore_restaurant {
     margin-bottom: 30px;

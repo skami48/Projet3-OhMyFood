@@ -376,7 +376,7 @@ footer{
             
 
         }
-        @for $i from 1 through 9 {
+        @for $i from 1 through 10 {
             .AnimContent#{$i} {
                 
                 animation: blockAppear 1000ms 2000ms+($i*200);
@@ -573,6 +573,7 @@ footer{
     }
     .Fonctionnement_Numbers{
         height: 30px;
+        width: 30px;
     }
     .Fonctionnement{
         min-height: auto;
@@ -612,6 +613,7 @@ footer{
         flex-wrap: wrap;
         .Resto_Menu_Bloc{
             width: 40%;
+            align-self: flex-start;
         }
         .explore_restaurant{
             margin-bottom: 30px;
