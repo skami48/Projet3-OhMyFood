@@ -198,8 +198,9 @@ a:hover {
 
 .Fonctionnement_Numbers {
   background-color: #9356DC;
-  width: 35px;
-  height: 35px;
+  /*width: 35px;
+  height: 35px;*/
+  padding: 15px 10px;
   border-radius: 50%;
   display: flex;
   justify-content: center;
@@ -591,10 +592,6 @@ footer > div {
   }
   .Fonctionnement > div .Fonctionnement_Bloc {
     width: 30%;
-  }
-  .Fonctionnement_Numbers {
-    height: 30px;
-    width: 30px;
   }
   .Fonctionnement {
     min-height: auto;

@@ -189,8 +189,9 @@ a{
 
 .Fonctionnement_Numbers{
     background-color: $numberpink;
-    width: 35px;
-    height: 35px;
+    /*width: 35px;
+    height: 35px;*/
+    padding: 15px 10px;
     border-radius: 50%;
     display: flex;
     justify-content: center;
@@ -590,10 +591,7 @@ footer{
 
         }
     }
-    .Fonctionnement_Numbers{
-        height: 30px;
-        width: 30px;
-    }
+
     .Fonctionnement{
         min-height: auto;
     }
