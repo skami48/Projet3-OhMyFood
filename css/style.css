@@ -548,11 +548,10 @@ footer > div {
 
 .LikeButton {
   margin-left: auto;
-  margin-right: 5%;
+  margin-right: 10%;
   display: flex;
   align-content: center;
   justify-content: center;
-  margin-top: 30px;
 }
 .LikeButton .fa-regular {
   font-size: 30px;
