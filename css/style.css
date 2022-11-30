@@ -612,6 +612,9 @@ footer > div {
   .LikeButton {
     margin-right: 7%;
   }
+  footer > img {
+    align-self: center;
+  }
 }
 @media (min-width: 992px) {
   body {
