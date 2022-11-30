@@ -558,6 +558,7 @@ footer{
         color: transparent;
         background: linear-gradient(180deg, rgba(237,116,217,1) 0%, rgba(168,94,217,1) 100%); 
         background-clip: text;
+        -webkit-background-clip : text;
 
     }
 

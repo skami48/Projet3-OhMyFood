@@ -573,6 +573,7 @@ footer > div {
   color: transparent;
   background: linear-gradient(180deg, rgb(237, 116, 217) 0%, rgb(168, 94, 217) 100%);
   background-clip: text;
+  -webkit-background-clip: text;
 }
 .LikeButton:hover .fa-regular {
   opacity: 0;
