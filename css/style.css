@@ -546,6 +546,11 @@ footer > div {
   color: #99E2D0;
 }
 
+.fa-circle-check {
+  color: white;
+  font-size: 28px;
+}
+
 .LikeButton {
   margin-left: auto;
   margin-right: 10%;
