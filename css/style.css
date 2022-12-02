@@ -389,61 +389,61 @@ footer > div {
   border-bottom: 5px solid #99E2D0;
 }
 .Resto_Menu .Resto_Menu_Bloc .AnimContent1 {
-  animation: blockAppear 1000ms 2200ms;
+  animation: blockAppear 1000ms 700ms;
   opacity: 0;
   animation-fill-mode: forwards;
   animation-timing-function: cubic-bezier(0.28, 0.57, 0.43, 0.91);
 }
 .Resto_Menu .Resto_Menu_Bloc .AnimContent2 {
-  animation: blockAppear 1000ms 2400ms;
+  animation: blockAppear 1000ms 900ms;
   opacity: 0;
   animation-fill-mode: forwards;
   animation-timing-function: cubic-bezier(0.28, 0.57, 0.43, 0.91);
 }
 .Resto_Menu .Resto_Menu_Bloc .AnimContent3 {
-  animation: blockAppear 1000ms 2600ms;
+  animation: blockAppear 1000ms 1100ms;
   opacity: 0;
   animation-fill-mode: forwards;
   animation-timing-function: cubic-bezier(0.28, 0.57, 0.43, 0.91);
 }
 .Resto_Menu .Resto_Menu_Bloc .AnimContent4 {
-  animation: blockAppear 1000ms 2800ms;
+  animation: blockAppear 1000ms 1300ms;
   opacity: 0;
   animation-fill-mode: forwards;
   animation-timing-function: cubic-bezier(0.28, 0.57, 0.43, 0.91);
 }
 .Resto_Menu .Resto_Menu_Bloc .AnimContent5 {
-  animation: blockAppear 1000ms 3000ms;
+  animation: blockAppear 1000ms 1500ms;
   opacity: 0;
   animation-fill-mode: forwards;
   animation-timing-function: cubic-bezier(0.28, 0.57, 0.43, 0.91);
 }
 .Resto_Menu .Resto_Menu_Bloc .AnimContent6 {
-  animation: blockAppear 1000ms 3200ms;
+  animation: blockAppear 1000ms 1700ms;
   opacity: 0;
   animation-fill-mode: forwards;
   animation-timing-function: cubic-bezier(0.28, 0.57, 0.43, 0.91);
 }
 .Resto_Menu .Resto_Menu_Bloc .AnimContent7 {
-  animation: blockAppear 1000ms 3400ms;
+  animation: blockAppear 1000ms 1900ms;
   opacity: 0;
   animation-fill-mode: forwards;
   animation-timing-function: cubic-bezier(0.28, 0.57, 0.43, 0.91);
 }
 .Resto_Menu .Resto_Menu_Bloc .AnimContent8 {
-  animation: blockAppear 1000ms 3600ms;
+  animation: blockAppear 1000ms 2100ms;
   opacity: 0;
   animation-fill-mode: forwards;
   animation-timing-function: cubic-bezier(0.28, 0.57, 0.43, 0.91);
 }
 .Resto_Menu .Resto_Menu_Bloc .AnimContent9 {
-  animation: blockAppear 1000ms 3800ms;
+  animation: blockAppear 1000ms 2300ms;
   opacity: 0;
   animation-fill-mode: forwards;
   animation-timing-function: cubic-bezier(0.28, 0.57, 0.43, 0.91);
 }
 .Resto_Menu .Resto_Menu_Bloc .AnimContent10 {
-  animation: blockAppear 1000ms 4000ms;
+  animation: blockAppear 1000ms 2500ms;
   opacity: 0;
   animation-fill-mode: forwards;
   animation-timing-function: cubic-bezier(0.28, 0.57, 0.43, 0.91);
@@ -458,6 +458,7 @@ footer > div {
   background-color: white;
   width: 100%;
   overflow: hidden;
+  cursor: pointer;
 }
 .Resto_Menu .Resto_Menu_Bloc .Resto_Menu_Bloc_Element:hover .Resto_Menu_Bloc_Element_Validation {
   transition: margin-right 500ms;
@@ -490,14 +491,14 @@ footer > div {
 }
 .Resto_Menu .Resto_Menu_Bloc .Resto_Menu_Bloc_Element .Resto_Menu_Bloc_Element_Validation {
   background-color: #99E2D0;
-  width: 20%;
+  width: 200px;
   height: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
   transition-property: margin-right;
   transition-duration: 500ms;
-  margin-right: -20%;
+  margin-right: -200px;
 }
 .Resto_Menu .Resto_Menu_Bloc .Resto_Menu_Bloc_Element .Resto_Menu_Bloc_Element_Validation i {
   transform: rotate(0);
@@ -558,6 +559,7 @@ footer > div {
   align-content: center;
   justify-content: center;
   margin-top: 30px;
+  cursor: pointer;
 }
 .LikeButton .fa-regular {
   font-size: 30px;
@@ -621,8 +623,24 @@ footer > div {
   body {
     max-width: 100%;
   }
+  header {
+    max-width: 1400px;
+    margin: auto;
+  }
   header > a {
     margin-right: 1%;
+  }
+  .IndexMain {
+    max-width: 1400px;
+    margin: auto;
+  }
+  main {
+    max-width: 1400px;
+    margin: auto;
+  }
+  .Fonctionnement {
+    max-width: 1400px;
+    margin: auto;
   }
   .logonext {
     margin-right: auto;
